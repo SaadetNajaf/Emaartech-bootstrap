@@ -1,4 +1,3 @@
-# Emaartech-bootstrap
 # 🎓 Emartech Clone – A Modern Tech Solutions Platform
 
 This project is a responsive website template designed for **Emartech**, a platform offering cutting-edge tech services and solutions. Built with **HTML**, **CSS**, and **Bootstrap**, the website showcases Emartech's services, portfolio, and features that highlight its position as a leader in the tech industry.
