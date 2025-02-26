@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Emaartech</title>
+    <!-- *Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- * Bs Icon Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- *CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- *Header -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img width="55" src="/images/emartech-logo.jpeg" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav text-center ms-auto mx-4">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Anasayfa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#popular">Popüler</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#service">Servis</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Yorumlar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#question">Sorular</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link bg-dark text-white btn rounded-3" href="#footer"
+                  >Bize Ulaşın</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- *Hero -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./images/home6.jpg"
+            class="d-block w-100-height object-fit-cover"
+            alt="carousel-image"
+          />
+          <div class="carousel-caption carousel-1">
+            <p>1/3</p>
+            <h5>Daha Kolay Keşfedin</h5>
+            <div class="d-flex">
+              <input
+                type="text"
+                placeholder="Arama ..."
+                class="form-control w-50"
+              />
+              <button
+                class="btn btn-light btn-sm justify-content-center mx-2 px-3"
+              >
+                <i class="bi bi-search"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./images/home7.jpg"
+            class="d-block w-100-height object-fit-cover"
+            alt="carousel-image"
+          />
+          <div class="carousel-caption carousel-2">
+            <p>2/3</p>
+            <h5>Gelecek Nesiller İçin</h5>
+            <button class="btn btn-light btn-lg mt-3">Daha Fazla</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./images/home8.jpg"
+            class="d-block w-100-height object-fit-cover"
+            alt="carousel-image"
+          />
+          <div class="carousel-caption carousel-3">
+            <p>3/3</p>
+            <h5>Emlak Alım Satım</h5>
+            <button class="btn btn-light btn-lg mt-3">Daha Fazla</button>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- * Popular  -->
+    <section id="popular" class="container popular mt-5">
+      <!-- * Title -->
+      <p class="text-uppercase text-muted">Popüler</p>
+      <div class="d-flex align-items-center justify-content-between">
+        <h2 class="fw-bold">Popüler Rezidanslarımız</h2>
+        <a
+          href="#"
+          class="d-flex align-items-center text-decoration-none text-primary ms-auto"
+        >
+          <span class="me-2">Tümünü Keşfedin</span>
+          <span class="fs-4 fw-bolder">&rarr;</span>
+        </a>
+      </div>
+      <!-- * Cards -->
+      <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3">
+        <!-- Card 1 -->
+        <div class="col my-2">
+          <div class="card">
+            <img src="./images/home1.jpg" alt="Ev 1" />
+            <div class="card-body">
+              <!-- Location -->
+              <p>Malatya, Türkiye</p>
+              <!-- Center -->
+              <div class="d-flex justify-content-center">
+                <p class="mx-2"><i class="bi bi-car-front-fill"></i> 20 dk</p>
+                <p class="mx-2"><i class="bi bi-play-fill"></i> 8*8 m²</p>
+                <p class="mx-2"><i class="bi bi-compass"></i> 2000 m²</p>
+              </div>
+              <!-- Bottom -->
+              <div class="d-flex justify-content-between align-items-center">
+                <button class="btn btn-dark">Rezervasyon Yap</button>
+                <h5>₺1.500.000</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="col my-2">
+          <div class="card">
+            <img src="./images/home2.jpg" alt="Ev 2" />
+            <div class="card-body">
+              <!-- Location -->
+              <p>Antalya, Türkiye</p>
+              <!-- Center -->
+              <div class="d-flex justify-content-center">
+                <p class="mx-2"><i class="bi bi-car-front-fill"></i> 15 dk</p>
+                <p class="mx-2"><i class="bi bi-play-fill"></i> 10*10 m²</p>
+                <p class="mx-2"><i class="bi bi-compass"></i> 2500 m²</p>
+              </div>
+              <!-- Bottom -->
+              <div class="d-flex justify-content-between align-items-center">
+                <button class="btn btn-dark">Rezervasyon Yap</button>
+                <h5>₺2.200.000</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="col my-2">
+          <div class="card">
+            <img src="./images/home3.jpg" alt="Ev 3" />
+            <div class="card-body">
+              <!-- Location -->
+              <p>İstanbul, Türkiye</p>
+              <!-- Center -->
+              <div class="d-flex justify-content-center">
+                <p class="mx-2"><i class="bi bi-car-front-fill"></i> 30 dk</p>
+                <p class="mx-2"><i class="bi bi-play-fill"></i> 12*12 m²</p>
+                <p class="mx-2"><i class="bi bi-compass"></i> 3000 m²</p>
+              </div>
+              <!-- Bottom -->
+              <div class="d-flex justify-content-between align-items-center">
+                <button class="btn btn-dark">Rezervasyon Yap</button>
+                <h5>₺3.500.000</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- * Dark Area -->
+    <section class="bg-dark custom-margin">
+      <div class="container pt-5">
+        <!-- Hero Section -->
+        <div class="row text-light" style="margin-top: 25%">
+          <div class="col-lg-4">
+            <h2>Mehmet Can Seyhan</h2>
+            <p>CEO</p>
+          </div>
+          <div class="col-lg-8">
+            <h6 class="lh-lg">
+              “Her zorluğun üstesinden gelmek ve yenilikçi çözümler üretmek,
+              şirketimizin temel dinamiklerinden biridir. Ekibimizle birlikte,
+              müşterilerimize en kaliteli hizmeti sunma hedefiyle sürekli
+              gelişiyor, yaratıcı adımlar atıyoruz. Başarıya ulaşmanın yolunun,
+              tutku, özveri ve sürekli yenilikten geçtiğine inanıyorum.”
+            </h6>
+          </div>
+        </div>
+        <hr class="text-light" />
+
+        <!-- Logo Section -->
+        <div class="mt-5">
+          <div class="row text-center">
+            <div class="col-md-3 col-sm-6 mb-4">
+              <img src="./images/logo1.png" alt="logo" class="w-75 img-fluid" />
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+              <img src="./images/logo2.png" alt="logo" class="w-75 img-fluid" />
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+              <img src="./images/logo3.png" alt="logo" class="w-75 img-fluid" />
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+              <img src="./images/logo4.png" alt="logo" class="w-75 img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- * Services -->
+    <section id="service">
+      <!-- Title -->
+      <h2 class="text-center my-5">Hizmetlerimiz</h2>
+      <!-- Content -->
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-5">
+            <div class="d-flex">
+              <div class="about-img mx-2">
+                <img
+                  class="img-fluid h-100 mt-4"
+                  src="./images/about1.png"
+                  alt="about"
+                />
+              </div>
+              <div class="about-img">
+                <img
+                  class="img-fluid h-75"
+                  src="./images/about2.png"
+                  alt="about"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7 mt-5">
+            <div>
+              <h2 class="fw-bold">Konfor Bizim Birinci Önceliğimizdir</h2>
+              <p class="lead">
+                Her detayda yüksek kaliteyi hedefleyerek, yaşam alanlarınızı
+                daha konforlu hale getirmeyi amaçlıyoruz. Geliştirdiğimiz
+                projeler, estetik ve fonksiyonelliği birleştirerek, her birey
+                için rahat bir yaşam alanı sunmaktadır. Müşterilerimizin
+                ihtiyaçlarını en iyi şekilde anlayarak, onlara özel çözümler
+                üretiyoruz. Hedefimiz, sadece bugünü değil, geleceği de
+                düşünerek yaşam alanları yaratmaktır. Her adımda yenilikçi ve
+                sürdürülebilir çözümler sunarak, yaşam kalitesini artırmayı
+                sürdürüyoruz.
+              </p>
+              <button class="btn btn-dark px-4 py-2">Daha Fazlası İçin</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- *Blog -->
+    <section id="blog" class="container mt-5">
+      <p class="text-uppercase text-muted">Blog</p>
+      <div class="d-flex justify-content-between align-items-center">
+        <h2 class="fw-bold">Güncel Konut Bilgileri</h2>
+        <button class="btn btn-dark px-4 py-2 btn-md ms-auto">
+          Tümünü Gör
+        </button>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 my-4">
+        <!-- Card 1 -->
+        <div class="col mt-3">
+          <div class="card border-0 shadow-sm">
+            <img src="./images/home-2.jpg" alt="blog" class="card-img-top" />
+            <div class="card-body">
+              <p class="card-text text-muted">19 Ocak 2025</p>
+              <h5 class="card-title">Yüksek Dağ Manzaralı Ev</h5>
+              <p class="card-text">
+                Yüksek dağlar ve temiz hava eşliğinde, konforlu evin modern
+                tasarımı ve geniş yaşam alanları dikkat çekiyor.
+              </p>
+              <button
+                class="btn text-primary"
+                style="background-color: #d4e8ff"
+              >
+                Daha Fazla Oku
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col mt-3">
+          <div class="card border-0">
+            <img src="./images/home-3.jpg" alt="blog" class="card-img-top" />
+            <div class="card-body">
+              <p class="card-text text-muted">20 Ocak 2025</p>
+              <h5 class="card-title">Doğayla İç İçe Bir Yaşam</h5>
+              <p class="card-text">
+                Doğayla iç içe, sakin bir yaşam sunan bu ev, geniş bahçesi ve
+                doğa manzarası ile huzurlu bir yaşam alanı yaratıyor.
+              </p>
+              <button
+                class="btn text-primary"
+                style="background-color: #d4e8ff"
+              >
+                Daha Fazla Oku
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col mt-3">
+          <div class="card border-0">
+            <img src="./images/home4.jpg" alt="blog" class="card-img-top" />
+            <div class="card-body">
+              <p class="card-text text-muted">27 Ocak 2025</p>
+              <h5 class="card-title">Modern Mimarisi ile Öne Çıkan Ev</h5>
+              <p class="card-text">
+                Modern mimarisi ve yenilikçi tasarımıyla dikkat çeken bu ev,
+                konforlu yaşam alanları ve eşsiz mimarisi ile hayatınıza değer
+                katacak.
+              </p>
+              <button
+                class="btn text-primary"
+                style="background-color: #d4e8ff"
+              >
+                Daha Fazla Oku
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- *Review -->
+    <section id="team" class="bg-dark pt-4">
+      <!-- Top -->
+      <div class="container d-flex justify-content-between align-items-center">
+        <h2 class="text-white">Müşterilerimiz Bizim Hakkımızda Ne Diyor?</h2>
+        <div>
+          <button class="btn text-white" id="prevBtn">&larr;</button>
+          <button class="btn text-white" id="nextBtn">&rarr;</button>
+        </div>
+      </div>
+
+      <!-- Bottom -->
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mt-5">
+          <!-- Card 1 -->
+          <div class="col">
+            <div class="card border-0 bg-transparent">
+              <div class="row">
+                <div class="col-md-5">
+                  <img
+                    src="./images/team-1.png"
+                    alt="team"
+                    class="img-fluid rounded-circle"
+                  />
+                </div>
+                <div class="col-md-7 text-white">
+                  <h5 class="mt-3">Yunus Emre</h5>
+                  <p class="text-secondary">
+                    Bu geniş kart, ek içerik için doğal bir giriş olarak
+                    destekleyici metinle birlikte gelir. İçerik biraz daha
+                    uzundur.
+                  </p>
+                  <p><strong>Lead Designer</strong></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col">
+            <div class="card border-0 bg-transparent">
+              <div class="row">
+                <div class="col-md-5">
+                  <img
+                    src="./images/team-2.png"
+                    alt="team"
+                    class="img-fluid rounded-circle"
+                  />
+                </div>
+                <div class="col-md-7 text-white">
+                  <h5 class="mt-3">Ali Kaan</h5>
+                  <p class="text-secondary">
+                    Harika hizmet, mükemmel bir deneyim! Bütün çalışanlar çok
+                    yardımcı oldu ve işler yolunda gitti. Çok memnun kaldım.
+                  </p>
+                  <p><strong>Designer</strong></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col">
+            <div class="card border-0 bg-transparent">
+              <div class="row">
+                <div class="col-md-5">
+                  <img
+                    src="./images/team-3.png"
+                    alt="team"
+                    class="img-fluid rounded-circle"
+                  />
+                </div>
+                <div class="col-md-7 text-white">
+                  <h5 class="mt-3">Mehmet Can</h5>
+                  <p class="text-secondary">
+                    Harika bir deneyim oldu. Sürekli yenilikler ve yaratıcı
+                    çözümlerle projeye katkı sağlandı ve gerçekten çok
+                    başarılıydı.
+                  </p>
+                  <p><strong>Senior Designer</strong></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- * Questions Area -->
+    <section id="question" class="container my-5">
+      <div class="row">
+        <div class="col-lg-5 mb-5">
+          <p class="text-uppercase">Sorular</p>
+          <h2>Sıkça Sorulan Sorular</h2>
+          <p>
+            Bu alan, en sık sorulan soruların yanıtlarını içermektedir.
+            Sorularınızla ilgili daha fazla bilgi almak için lütfen aşağıdaki
+            butona tıklayın. Yardımcı olabileceğimiz her konuda size destek
+            sağlamaktan mutluluk duyarız.
+          </p>
+          <button class="btn btn-dark">Daha Fazlası İçin</button>
+        </div>
+        <div class="col-lg-7">
+          <div class="accordion" id="accordionExample">
+            <!-- Accordion Item 1: Yüksek Dağ Manzaralı Ev -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Yüksek Dağ Manzaralı Ev Hangi Özelliklere Sahip?
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <strong>Yüksek dağ manzaralı evin sunduğu avantajlar:</strong>
+                  Temiz hava, geniş yaşam alanları, modern tasarım ve çevre
+                  dostu malzemeler. Bu ev, doğa ile iç içe bir yaşam için
+                  idealdir.
+                </div>
+              </div>
+            </div>
+
+            <!-- Accordion Item 2: Doğayla İç İçe Bir Yaşam -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  Doğayla İç İçe Bir Yaşamda Hangi Avantajlar Sunuluyor?
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <strong
+                    >Doğayla iç içe bir yaşamın sunduğu avantajlar:</strong
+                  >
+                  Sakin bir ortam, doğa manzarası, geniş bahçeler ve
+                  sürdürülebilir inşaat yöntemleri ile enerji verimliliği
+                  sağlanmaktadır. Huzurlu bir yaşam için ideal bir seçim.
+                </div>
+              </div>
+            </div>
+
+            <!-- Accordion Item 3: Modern Mimarisi ile Öne Çıkan Ev -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Modern Mimarisi ile Öne Çıkan Evde Hangi Yenilikçi Özellikler
+                  Var?
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <strong>Modern mimari ve yenilikçi tasarım:</strong> Estetik
+                  ve işlevsellik bir arada sunulmaktadır. Bu evde, geniş
+                  pencereler, doğal ışık kullanımı, çevresel faktörlerle uyumlu
+                  yapılar ve enerji verimliliği sağlayan tasarımlar yer alır.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  * Footer -->
+    <footer id="footer" class="bg-dark text-white py-5">
+      <div class="container">
+        <div class="row">
+          <!-- About -->
+          <div class="col-lg-6">
+            <h5>Bizim Hakkımızda</h5>
+            <p>
+              Emartech, yenilikçi teknolojiler ve modern yaşam çözümleriyle
+              sektördeki liderliğini sürdürmektedir. Müşterilerine en iyi
+              hizmeti sunmayı hedefleyen bir vizyonla çalışıyoruz.
+            </p>
+            <p><i class="bi bi-geo-alt-fill"></i> İstanbul, Türkiye</p>
+            <p><i class="bi bi-telephone-fill"></i> 444 444 444</p>
+            <p><i class="bi bi-envelope-fill"></i> info@emartech.com</p>
+          </div>
+    
+          <!-- Menu -->
+          <div class="col-lg-3">
+            <h5>Hızlı Bağlantılar</h5>
+            <ul class="list-unstyled">
+              <li><a class="text-decoration-none text-white" href="#">Anasayfa</a></li>
+              <li><a class="text-decoration-none text-white" href="#popular">Popüler</a></li>
+              <li><a class="text-decoration-none text-white" href="#service">Hizmetlerimiz</a></li>
+              <li><a class="text-decoration-none text-white" href="#blog">Haberler</a></li>
+              <li><a class="text-decoration-none text-white" href="#footer">İletişim</a></li>
+            </ul>
+          </div>
+    
+          <!-- Social Media -->
+          <div class="col-lg-3">
+            <h5>Bize Ulaşmak İçin</h5>
+            <ul class="list-unstyled d-flex justify-content-between">
+              <li><a class="text-decoration-none text-white" href="#"><i class="bi bi-facebook" style="font-size: 1.5rem;"></i></a></li>
+              <li><a class="text-decoration-none text-white" href="#"><i class="bi bi-instagram" style="font-size: 1.5rem;"></i></a></li>
+              <li><a class="text-decoration-none text-white" href="#"><i class="bi bi-twitter" style="font-size: 1.5rem;"></i></a></li>
+              <li><a class="text-decoration-none text-white" href="#"><i class="bi bi-youtube" style="font-size: 1.5rem;"></i></a></li>
+              <li><a class="text-decoration-none text-white" href="#"><i class="bi bi-linkedin" style="font-size: 1.5rem;"></i></a></li>
+            </ul>
+          </div>
+        </div>
+    
+        <!-- Footer Copyright -->
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="text-center">
+              © <span class="text-secondary">Emartech</span> Tüm Hakları
+              Saklıdır
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    
+    
+
+    <!-- *Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
