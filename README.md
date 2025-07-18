@@ -46,9 +46,9 @@ Direct access to Emartech's social media profiles for enhanced engagement.
 
 ## 📞 Contact
 
-- 📩 **Email:** [saadetnajaf@gmail.com](mailto:saadetnajaf@gmail.com)  
-- 📷 **Instagram:** [@saadet_najaf](https://www.instagram.com/saadet_najaf)  
-- 💼 **LinkedIn:** [Saadet Najaf](https://www.linkedin.com/in/saadet-najaf/)
+📩 **Email:** [saadetnajaf@gmail.com](mailto:saadetnajaf@gmail.com)  
+📷 **Instagram:** [@saadet_najaf](https://www.instagram.com/saadet_najaf)  
+💼 **LinkedIn:** [Saadet Najaf](https://www.linkedin.com/in/saadet-najaf/)
 
 
 
