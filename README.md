@@ -14,6 +14,7 @@ A fixed navigation bar that allows for smooth and easy navigation to different s
 
 ✅ **Eye-catching Banner**
 A hero section with a dynamic promotional video and a clear call-to-action button.  
+
 ✅ **Services Section**
 Displays Emartech's primary services, such as custom software development, cloud solutions, and tech support.
 
